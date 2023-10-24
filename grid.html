@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Css Grid</title>
+        <style>
+
+            .wrapper{
+                display: grid;
+                grid-template-columns: 70% 30% ;
+              /*
+                grid-column-gap: 1em;
+                grid-row-gap: 1em;
+                */
+                grid-gap: 1em;
+            
+            }
+
+
+            .wrapper > div{
+                background: #eee;
+                padding: 1em;
+            }
+
+            .wrapper > div:nth-child(odd){
+                background: #ddd;
+            }
+        </style>
+    </head>
+
+    <body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur facere id officiis deserunt, delectus tenetur nostrum vero. Sequi, earum animi dolor quas exercitationem voluptates eveniet? Animi explicabo aliquam aliquid dolores.
+        </div>
+        <div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe nulla quidem magni itaque officia illo, quas sint aliquid commodi omnis quo mollitia esse ea veniam eos expedita impedit modi illum.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur facere id officiis deserunt, delectus tenetur nostrum vero. Sequi, earum animi dolor quas exercitationem voluptates eveniet? Animi explicabo aliquam aliquid dolores.
+        </div>
+        <div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe nulla quidem magni itaque officia illo, quas sint aliquid commodi omnis quo mollitia esse ea veniam eos expedita impedit modi illum.
+        </div>
+        <div> Hello World</div>
+    </div>
+    </body>
+</html>
